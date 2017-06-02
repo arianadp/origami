@@ -1,0 +1,16 @@
+VERSION 120
+
+EDIT UG_GATEWAY_MAIN_MENUBAR
+
+TOP_MENU
+	CASCADE_BUTTON THICK_ORIGAMI_CUSTOM_TOOLS_MENU
+	LABEL Thick Origami &Custom Tools
+	MESSAGE Thick Origami Tools
+END_OF_TOP_MENU
+
+MENU THICK_ORIGAMI_CUSTOM_TOOLS_MENU
+	BUTTON THICK_ORIGAMI_GENERATOR
+	LABEL  &Generate Thick Origami
+	MESSAGE Generates thick origami from crease pattern sketch
+	ACTIONS Thick_Origami_Generator
+END_OF_MENU
