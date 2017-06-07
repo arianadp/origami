@@ -19,6 +19,7 @@ namespace Project1
             isReference = false;
             startPoint = new myPoint();
             endPoint = new myPoint();
+            taperLength = 0;
         }
 
         public myLine(myPoint point1, myPoint point2, bool isRef = false)
@@ -26,6 +27,7 @@ namespace Project1
             startPoint = point1;
             endPoint = point2;
             isReference = isRef;
+            taperLength = 0;
         }
     }
 }
