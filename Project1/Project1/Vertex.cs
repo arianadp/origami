@@ -50,6 +50,7 @@ namespace Project1
                 dumbLine.endPoint.Y = line.EndPoint.Y;
                 dumbLine.endPoint.Z = line.EndPoint.Z;
                 dumbLine.isReference = line.IsReference;
+                dumbLine.isTapered = true;
 
                 dumbLines.Add(dumbLine);
             }
